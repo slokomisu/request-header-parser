@@ -18,4 +18,4 @@ app.get('/api/whoami', (req, res) => {
 
 
 })
-app.listen(process.end.PORT || 3000);
+app.listen(process.env.PORT || 3000);
